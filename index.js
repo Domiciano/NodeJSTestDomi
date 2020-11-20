@@ -7,6 +7,6 @@ app.listen(5000, () => {
  console.log(`Our app is running on port ${ PORT }`);
 });
 
-app.get('/', function (req, res) {
+app.get('/hola', function (req, res) {
   res.send('Saludos desde express');
 });
